@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<se-lint-ignore>
+	<file path="chapter-8.xhtml">
+		<ignore>
+			<code>y-019</code>
+			<reason>Complaint is about a quote within a quote within dialog and the quotation marks do match.</reason>
+		</ignore>
+	</file>
+</se-lint-ignore>
