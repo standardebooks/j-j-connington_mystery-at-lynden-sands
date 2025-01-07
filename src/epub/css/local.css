@@ -1,88 +1,47 @@
 @charset "utf-8";
 @namespace epub "http://www.idpf.org/2007/ops";
 
-/* If the image is meant to be aligned block-level with the text, use this selector... */
+/* Figures: */
 figure{
 	break-inside: avoid;
 	margin: 1em 40px;
 	text-align: center;
 }
 
-/* In all cases, also include the below styles */
 figure img{
 	display: block;
 	margin: auto;
 	max-width: 100%;
 }
 
-figcaption{
-	font-size: smaller;
-	font-style: italic;
-	margin: 1em;
-}
-
-figcaption p + p{
-	text-indent: 0;
-}
-
 /* Letters: */
-[epub|type~="z3998:letter"] header{
-	text-align: right;
-}
-
-footer{
-	margin-top: 1em;
-	text-align: right;
-}
-
-[epub|type~="z3998:salutation"] + p,
-[epub|type~="z3998:letter"] header + p{
-	text-indent: 0;
-}
-
-[epub|type~="z3998:sender"],
-[epub|type~="z3998:recipient"],
-[epub|type~="z3998:salutation"],
-[epub|type~="z3998:signature"]{
+[epub|type~="z3998:recipient"]{
 	font-variant: small-caps;
-}
-
-[epub|type~="z3998:postscript"]{
-	margin-top: 1em;
-	text-align: initial;
-	text-indent: 0;
 }
 
 .telegram{
 	font-variant: all-small-caps;
 }
 
-/* Poems: */
-[epub|type~="z3998:poem"] p{
+/* Poems, verse, and songs: */
+[epub|type~="z3998:song"] p,
+[epub|type~="z3998:verse"] p{
 	text-align: initial;
 	text-indent: 0;
 }
 
-[epub|type~="z3998:poem"] p > span{
+[epub|type~="z3998:song"] p > span,
+[epub|type~="z3998:verse"] p > span{
 	display: block;
 	padding-left: 1em;
 	text-indent: -1em;
 }
 
-[epub|type~="z3998:poem"] p > span + br{
+[epub|type~="z3998:verse"] p > span + br{
 	display: none;
-}
-
-[epub|type~="z3998:poem"] p + p{
-	margin-top: 1em;
 }
 
 p span.i1{
 	padding-left: 2em;
-	text-indent: -1em;
-}
-
-p span.i2{
-	padding-left: 3em;
 	text-indent: -1em;
 }
