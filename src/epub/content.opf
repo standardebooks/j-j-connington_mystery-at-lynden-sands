@@ -39,14 +39,16 @@
 		<meta property="term" refines="#subject-2">Unknown</meta>
 		<meta property="authority" refines="#subject-3">LCSH</meta>
 		<meta property="term" refines="#subject-3">sh2008107761</meta>
-		<meta property="se:subject">TAG</meta>
-		<dc:description id="description">DESCRIPTION</dc:description>
+		<meta property="se:subject">Fiction</meta>
+		<meta property="se:subject">Mystery</meta>
+		<dc:description id="description">The Chief Constable’s holiday on the coast is interrupted when he is drawn into investigating a murder.</dc:description>
 		<meta id="long-description" property="se:long-description" refines="#description">
-			LONG_DESCRIPTION
+			&lt;p&gt;Chief Constable Sir Clinton Driffield’s holiday on the coast is interrupted when he is asked to assist with the investigation of a murder on a nearby country estate. As Sir Clinton, the local police, and Sir Clinton's friend Wendover work to uncover who is behind the murder, they encounter an expanding web of clues, characters with possible motives, questions related to the large inheritance involving the estate, and additional misdeeds. Working against time and tides, Sir Clinton and his team are faced with piecing together an increasingly complex puzzle of clues, potential suspects, and crimes.&lt;/p&gt;
+			&lt;p&gt;&lt;i&gt;Mystery at Lynden Sands&lt;/i&gt; was the third of a series of detective novels by &lt;a href="https://standardebooks.org/ebooks/j-j-connington"&gt;J. J. Connington&lt;/a&gt;, the pseudonym used by British chemist and part-time author Alfred Walter Stewart. &lt;i&gt;Mystery at Lynden Sands&lt;/i&gt; was first published in Britain in 1928 and sees the return his best-known detective character, Chief Constable Sir Clinton Driffield, along with Sir Clinton's friend and unofficial assistant Wendover.&lt;/p&gt;
 		</meta>
 		<dc:language>en-GB</dc:language>
 		<dc:source>https://www.gutenberg.org/ebooks/73126</dc:source>
-		<dc:source>IA_URL</dc:source>
+		<dc:source>https://catalog.hathitrust.org/Record/000124226</dc:source>
 		<meta property="se:production-notes">PRODUCTION_NOTES</meta>
 		<meta property="se:word-count">WORD_COUNT</meta>
 		<meta property="se:reading-ease.flesch">READING_EASE</meta>
@@ -54,21 +56,20 @@
 		<meta property="se:url.vcs.github">https://github.com/standardebooks/j-j-connington_mystery-at-lynden-sands</meta>
 		<dc:creator id="author">J. J. Connington</dc:creator>
 		<meta property="file-as" refines="#author">Connington, J. J.</meta>
-		<meta property="se:name.person.full-name" refines="#author">CONTRIBUTOR_FULL_NAME</meta>
-		<meta property="se:url.encyclopedia.wikipedia" refines="#author">https://en.wikipedia.org/wiki/J._J._Connington</meta>
+		<meta property="se:url.encyclopedia.wikipedia" refines="#author">https://en.wikipedia.org/wiki/Alfred_Walter_Stewart</meta>
 		<meta property="se:url.authority.nacoaf" refines="#author">http://id.loc.gov/authorities/n86862953</meta>
 		<meta property="role" refines="#author" scheme="marc:relators">aut</meta>
-		<dc:contributor id="artist">COVER_ARTIST</dc:contributor>
-		<meta property="file-as" refines="#artist">COVER_ARTIST_SORT</meta>
-		<meta property="se:url.encyclopedia.wikipedia" refines="#artist">COVER_ARTIST_WIKI_URL</meta>
-		<meta property="se:url.authority.nacoaf" refines="#artist">COVER_ARTIST_NACOAF_URI</meta>
+		<meta property="role" refines="#author" scheme="marc:relators">ill</meta>
+		<dc:contributor id="artist">George Percy Jacomb-Hood</dc:contributor>
+		<meta property="file-as" refines="#artist">Jacomb-Hood, George Percy</meta>
+		<meta property="se:url.encyclopedia.wikipedia" refines="#artist">https://en.wikipedia.org/wiki/George_Percy_Jacomb-Hood</meta>
+		<meta property="se:url.authority.nacoaf" refines="#artist">http://id.loc.gov/authorities/names/n79058585</meta>
 		<meta property="role" refines="#artist" scheme="marc:relators">art</meta>
 		<dc:contributor id="transcriber-1">Brian Raiter</dc:contributor>
 		<meta property="file-as" refines="#transcriber-1">Raiter, Brian</meta>
 		<meta property="role" refines="#transcriber-1" scheme="marc:relators">trc</meta>
-		<dc:contributor id="producer-1">PRODUCER</dc:contributor>
-		<meta property="file-as" refines="#producer-1">PRODUCER_SORT</meta>
-		<meta property="se:url.homepage" refines="#producer-1">PRODUCER_URL</meta>
+		<dc:contributor id="producer-1">Ron Stewart</dc:contributor>
+		<meta property="file-as" refines="#producer-1">Stewart, Ron</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">bkp</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">blw</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">cov</meta>
